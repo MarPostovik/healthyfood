@@ -1,0 +1,426 @@
+@media(max-width: 1262px){
+    .header-content{
+        justify-content: center;
+        align-items: center;
+    }
+    .header-content .right-img img{
+        position: relative;
+        transform: translate(0); 
+        max-width: 100%;
+    }
+    .contacts-container .heading-1,
+    .header-content .heading-1,
+    .about-us-page .heading-1
+    {
+        font-size: 40px;
+        margin-top: 80px;
+    }
+    .header-content .header-description{
+        font-size: 18px;
+    }
+    .header-content .left-text .order-btn{
+        margin-bottom: 0;
+    }
+    #orderBtn2{
+        margin-top: 25px;
+        width: 150px;
+        height: 55px;
+        font-size: 18px;
+    }
+    #orderBtn1{
+        width: 150px;
+        height: 55px;
+        font-size: 18px;
+    }
+    .dish-item{
+        max-width: calc(50% - 51px);
+    }
+    .green-btn,
+    .get-started-btn{
+        width: 150px;
+        height: 55px;
+        font-size: 18px;
+    }
+    input{
+        height: 55px;
+        font-size: 18px;
+    }
+    .Mycontainer.clients-container{
+        margin: 0;
+    }
+    .clients{
+        padding-left: 80px;
+        padding-right: 30px;
+    }
+    .Mycontainer.second{
+        margin: 0 50px;
+    }
+    .Mycontainer,
+    .Mycontainer.dishes-container{
+        margin-left: 80px;
+        margin-right: 30px;
+    }
+    .about-us-page .section-desc,
+    .section-desc,
+    .dishes .section-desc,
+    .subscribe-desc,
+    .section-desc p,
+    .panel p,
+    .green-btn a,
+    .why-choose .desc,
+    .why-choose .numbers-container .number-item .num-desc,
+    .feedback .name{
+        font-size: 18px;
+    }
+    .section-heading, 
+    .why-choose .heading-2,
+    .subscribe-heading,
+    .about-us-page .section-heading{
+        font-size: 35px;
+    }
+    .about-us .pictures-content img,
+    .fresh-veg .left-picture img,
+    .chefs .right-picture img,
+    .dish-item img,
+    .about-us-page .picture-content img{
+        max-width: 100%;
+    }
+    .footer-content{
+        padding-left:  60px;
+        padding-right: 60px;
+    }
+    .chefs .left-content,
+    .fresh-veg .right-content,
+    .text-content{
+        max-width: 50%;
+    }
+    .chef-list .chef-list-item,
+    .dish-list-desc,
+    .why-choose .icons-container .item .item-desc,
+    .feedback-desc{
+        font-size: 16px;
+    }
+    .why-choose .icons-container .item .item-heading{
+        font-size: 24px;
+    }
+    .why-choose .numbers-container .number-item .number{
+        font-size: 35px;
+    }
+    .dish-list-heading{
+        font-size: 26px;
+    }
+    .testimonials .clients{
+        margin-top: 50px;
+    }
+}
+@media(max-width: 1020px){
+    .top-line{
+        flex-wrap: wrap;
+        row-gap: 20px;
+        gap: 20px;
+    }
+    
+}
+@media(max-width: 991px){
+    .menu{
+      max-width: 100%;
+    }
+    .menu-list{
+      gap: 15px;
+    }
+    .buttons{
+        margin-top: 20px;
+    }
+  }
+@media(max-width: 952px){
+    .about-us .pictures-content img,
+    .header-content .right-img img,
+    .fresh-veg .left-picture img,
+    .chefs .right-picture img,
+    .dish-item img{
+        max-width: 100%;
+    }
+    .marketing,
+    .plan{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .picture-marketing{
+        flex-direction: row;
+        max-width: 50%;
+        gap: 20px;
+    }
+    .marketing .text-content,
+    .plan .text-content{
+        max-width: 100%;
+    }
+    .business-left-content{
+        flex-direction: row;
+        max-width: 70%;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media(max-width: 915px){
+   .History{
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    } 
+    .History .text-content{
+        max-width: 100%;
+    }
+}
+@media(max-width: 900px){
+    .feedbacks-container{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    
+}
+@media(max-width: 888px){
+    .header-content{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    } 
+    .header-content .right-img{
+        max-width: 80%;
+    }
+
+}
+@media(max-width: 860px){
+    .modal-content{
+        width: 80%;
+    }
+}
+@media(max-width: 848px){
+    .testimonials .feedbacks-container .feedback{
+        max-width: 90%;
+    }
+}
+@media(max-width: 833px){
+    .dishes-list .dish-item{
+        max-width: 60%;
+    }
+    .about-us{
+        flex-wrap: wrap;
+        margin-top: 70px;
+        gap: 60px;
+        align-items: center;
+        justify-content: center;
+    }
+    .fresh-veg,
+    .dishes{
+        margin-top: 70px;
+    }
+    .dishes .green-btn{
+        margin-bottom: 70px;
+    }
+    .subscribe{
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    .pricing{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .pricing .text-content,
+    .pricing-picture  img,
+    .about-us .text-content{
+        max-width: 100%;
+    }
+    .pricing-picture{
+        max-width: 90%;
+    }
+}
+@media(max-width: 780px){
+    .why-choose .icons-container,
+    .why-choose .numbers-container{
+        gap: 50px;
+    }
+    .fresh-veg, 
+    .chefs{
+        flex-wrap: wrap;
+    }
+    .fresh-veg .right-content,
+    .chefs .left-content{
+        max-width: 100%;
+    } 
+}
+@media(max-width: 765px){
+    .left-menu{
+        flex-direction: column;
+        gap: 0;
+        row-gap: 10px;
+    }
+}
+@media(max-width: 764px){
+    .icons-container,
+    .numbers-container{
+        flex-wrap: wrap;
+    }
+}
+@media(max-width: 716px){
+    .contact-section{
+       flex-direction: column;
+       row-gap: 20px;
+    }
+    .contact-container{
+        max-width: 90%;
+    }
+}
+@media(max-width: 700px){
+    .footer-content{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+}
+@media(max-width: 680px){
+    .top-line{
+        flex-direction: column;
+    }
+}
+@media(max-width: 636px){
+    .modal-content{
+        width: 90%;
+    }
+}
+@media(max-width: 620px){
+    .dishes .dishes-list .dish-item{
+        width: 70%;
+        height: 537px;
+        max-width: 70%;
+    }
+    .Mycontainer.dishes-container{
+        margin: 0 30px;
+    }
+    .clients{
+        padding-left: 30px;
+    }
+    .business-left-content{
+        flex-wrap: wrap;
+        max-width: 100%;
+        margin-bottom: 30px;
+        justify-content: start;
+    }
+}
+@media(max-width: 590px){
+    .form{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media(max-width: 528px){
+    .menu-list{
+        gap: 15px;    
+    }
+    .quotes img,
+    .photo-and-info img{
+        max-width: 100%;
+    }
+    .quotes{
+        max-width: 50px;
+        min-width: 38px;
+    }
+    .photo-and-info .portrait{
+        max-width: 60px;
+        width: 60px;
+    }
+    .picture-marketing{
+        flex-direction: column;
+        max-width: 90%;
+    }
+    .business .dish-item{
+        max-width: 90%;
+    }
+    .footer-content{
+       padding: 50px 30px;
+    }
+
+}
+@media(max-width: 500px){
+    .dishes .dishes-list .dish-item {
+        width: 85%;
+        height: 537px;
+        max-width: 98%;
+    }
+}
+@media(max-width: 482px){
+    .top-line{
+        margin: 0 30px;
+    }
+    .container-fluid{
+      padding: 0;
+    }
+}
+@media(max-width: 450px){
+    .dish-item img{
+        width: 80%;
+    }
+    .clients .feedback{
+        width: 95%;
+    }
+    .feedbacks-container{
+        justify-content: center;
+    }
+    .Mycontainer{
+        margin: 0 20px;
+    }
+}
+@media(max-width: 425px){
+    .menu-list{
+        flex-direction: column;
+    }
+    .top-line{
+        justify-content: start;
+        align-items: start;
+        flex-direction: row;
+    }
+    .left-menu{
+        align-items: start;
+    }
+    .dishes .dishes-list .dish-item {
+        width: 98%;
+    }
+
+}
+@media(max-width: 415px){
+    .form input{
+        width: 90%;
+    }
+   
+}
+@media(max-width: 360px){
+    .feedback .photo-and-info{
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: start;
+    }
+}
+@media(max-width: 342px){
+    .modal-content input::placeholder,
+    .modal-content input,
+    .modal-content textarea,
+    .modal-content textarea::placeholder{
+         font-size: 14px;
+    }
+}
+@media(max-width: 248px){
+    .feedback .top-info{
+        gap: 0;
+    }
+}
+
+
+@media(min-width: 1500px){
+    .picture-marketing img{
+        max-width: 750px;
+        width: 750px;
+    }
+}

@@ -1,0 +1,72 @@
+
+@font-face {
+    font-family: 'Sofia Pro Medium';
+    src: url('SofiaProMedium.eot');
+    src: local('Sofia Pro Medium'), local('SofiaProMedium'),
+        url('SofiaProMedium.eot?#iefix') format('embedded-opentype'),
+        url('SofiaProMedium.woff2') format('woff2'),
+        url('SofiaProMedium.woff') format('woff'),
+        url('SofiaProMedium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Sofia Pro Regular';
+    src: url('SofiaProRegular.eot');
+    src: local('Sofia Pro Regular'), local('SofiaProRegular'),
+        url('SofiaProRegular.eot?#iefix') format('embedded-opentype'),
+        url('SofiaProRegular.woff2') format('woff2'),
+        url('SofiaProRegular.woff') format('woff'),
+        url('SofiaProRegular.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'sharp sans no1 bold';
+    src: url('sharpsansdispno1-bold-bf6465806e9215a-webfont.woff2') format('woff2'),
+         url('sharpsansdispno1-bold-bf6465806e9215a-webfont.woff') format('woff'),
+         url('sharpsansdispno1-bold-bf6465806e9215a-webfont.svg#sharp_sans_display_no1_triaBd') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'sharp sans no1 book';
+    src: url('sharpsansdispno1-book-bf6465806e97170-webfont.woff2') format('woff2'),
+         url('sharpsansdispno1-book-bf6465806e97170-webfont.woff') format('woff'),
+         url('sharpsansdispno1-book-bf6465806e97170-webfont.svg#sharp_sans_display_no1_triaBk') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'sharp sans no1 medium';
+    src: url('sharpsansdispno1-medium-bf6465806e76e81-webfont.woff2') format('woff2'),
+         url('sharpsansdispno1-medium-bf6465806e76e81-webfont.woff') format('woff'),
+         url('sharpsansdispno1-medium-bf6465806e76e81-webfont.svg#sharp_sans_display_no1_triaMd') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'sharp sans no1 semibold';
+    src: url('sharpsansdispno1-semibold-bf6465806e22026-webfont.woff2') format('woff2'),
+         url('sharpsansdispno1-semibold-bf6465806e22026-webfont.woff') format('woff'),
+         url('sharpsansdispno1-semibold-bf6465806e22026-webfont.svg#sharp_sans_display_no1_triSBd') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
