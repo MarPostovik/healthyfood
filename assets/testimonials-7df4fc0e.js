@@ -1,0 +1,1 @@
+import"./responsive-05056704.js";let e=document.getElementById("myModal"),t=document.getElementById("orderBtn1"),l=document.getElementsByClassName("close")[0];t.onclick=function(){e.style.display="block"};l.onclick=function(){e.style.display="none"};window.onclick=function(n){n.target==e&&(e.style.display="none")};
