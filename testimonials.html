@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="/healthyfood/assets/healthy-food-8dd4bf01.png">
     <title>Healthy food</title>
-    <script type="module" crossorigin src="/healthyfood/assets/testimonials-d7767115.js"></script>
-    <link rel="modulepreload" crossorigin href="/healthyfood/assets/responsive-992a593b.js">
-    <link rel="stylesheet" href="/healthyfood/assets/responsive-e98f214f.css">
+    <script type="module" crossorigin src="/healthyfood/assets/testimonials-98dce633.js"></script>
+    <link rel="modulepreload" crossorigin href="/healthyfood/assets/responsive-534de38b.js">
+    <link rel="stylesheet" href="/healthyfood/assets/responsive-19bc8116.css">
   </head>
   <body>
       <header>
@@ -33,40 +33,48 @@
                       </li>
                     </ul>
                     <div class="nav-item buttons d-flex">
-                        <button type="button" name="order" class="order-btn-top nav-item" id="orderBtn1">Order Now</button>
+                        <button type="button" name="order" class="order-btn-top nav-item" id="open-form-modal-btn">Order Now</button>
                     </div>
                 </div>
               </div>
-          
-            <div id="myModal" class="modal">
-              <div class="modal-content d-flex">
-                <span class="close">&times;</span>
-                <div class="modal-heading">We will contact with you</div>
-                <form>
-                  <div>
-                    <label>
-                      <input type="text" placeholder="Type your name">
-                    </label>
+              
+              <div class="modal-background" id="form-modal">
+                  <div class="modal-form-container">
+                      <button class="close-btn close">&times;</button>
+                      <form action="#" class="modal-form" data-netlify="true" id="form">
+                          <h4 class="modal-heading">We will contact with you</h4>
+                          <div>
+                            <label>
+                              <input type="text" placeholder="Type your name">
+                            </label>
+                          </div>
+                          <div>
+                            <label>
+                              <input type="tel" placeholder="Type your phone number">
+                            </label>
+                          </div>
+                          <div>
+                            <label>
+                              <input type="email" placeholder="Type your email">
+                            </label>
+                          </div>
+                          <div>
+                            <textarea name="" id="" cols="47" rows="3" placeholder="What would you like to order?"></textarea>
+                          </div>
+                          <div class="d-flex order-btn">
+                           <button class="modal-form-button green-btn" id="launch-btn">Order</button>
+                          </div>
+                      </form>
                   </div>
-                  <div>
-                    <label>
-                      <input type="tel" placeholder="Type your phone number">
-                    </label>
-                  </div>
-                  <div>
-                    <label>
-                      <input type="email" placeholder="Type your email">
-                    </label>
-                  </div>
-                  <div>
-                    <textarea name="" id="" cols="47" rows="3" placeholder="What would you like to order?"></textarea>
-                  </div>
-                  <div class="d-flex order-btn">
-                    <button type="submit" class="green-btn">Order</button>
-                  </div>
-                </form>
-              </div>
-            </div>
+                </div>
+              <div class="modal-background" id="success-modal">
+                <div class="modal-form-container">
+                    <button class="close-btn close">&times;</button>
+                   <div class="modal-heading green">Thank you!</div>
+                   <div class="section-desc">We recieved your information.<br> Our mangers will call or write to you.</div>
+                    <div class="green section-desc">Have a nice day!</div>
+                </div>
+              </div> 
           </nav>
       </header>
     
