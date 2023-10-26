@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="/healthyfood/assets/healthy-food-8dd4bf01.png">
     <title>Healthy food</title>
-    <script type="module" crossorigin src="/healthyfood/assets/main-2ed62f2a.js"></script>
-    <link rel="modulepreload" crossorigin href="/healthyfood/assets/responsive-05040895.js">
-    <link rel="stylesheet" href="/healthyfood/assets/responsive-8d0500eb.css">
+    <script type="module" crossorigin src="/healthyfood/assets/main-85681e43.js"></script>
+    <link rel="modulepreload" crossorigin href="/healthyfood/assets/responsive-4ffbfc55.js">
+    <link rel="stylesheet" href="/healthyfood/assets/responsive-015d8012.css">
     <link rel="stylesheet" href="/healthyfood/assets/index-56f8e0a5.css">
   </head>
 
@@ -44,36 +44,39 @@
                 <div class="modal-form-container">
                     <button class="close-btn close">&times;</button>
                     <form action="#" class="modal-form" data-netlify="true" id="form">
-                        <h4 class="modal-heading">We will contact with you</h4>
-                        <div>
-                          <label>
-                            <input type="text" placeholder="Type your name">
-                          </label>
-                        </div>
-                        <div>
-                          <label>
-                            <input type="tel" placeholder="Type your phone number">
-                          </label>
-                        </div>
-                        <div>
-                          <label>
-                            <input type="email" placeholder="Type your email">
-                          </label>
-                        </div>
-                        <div>
-                          <textarea name="" id="" cols="47" rows="3" placeholder="What would you like to order?"></textarea>
-                        </div>
-                        <div class="d-flex order-btn">
-                         <button class="modal-form-button green-btn" id="launch-btn">Order</button>
-                        </div>
-                    </form>
+                      <h4 class="modal-heading">We will contact with you</h4>
+                      <div>
+                        <label class="d-flex">
+                          <span class="input-label section-desc">Name: </span>
+                          <input type="text" placeholder="Type your name" required>
+                        </label>
+                      </div>
+                      <div>
+                        <label class="d-flex">
+                          <span class="input-label section-desc">Phone: </span>
+                          <input type="tel" pattern="[0-9]{3} [0-9]{3} [0-9]{4}" placeholder="012 345 6789" required>
+                        </label>
+                      </div>
+                      <div>
+                        <label class="d-flex">
+                          <span class="input-label section-desc">Email: </span>
+                          <input type="email" placeholder="Type your email" required>
+                        </label>
+                      </div>
+                      <div>
+                        <textarea name="" id="" cols="47" rows="3" placeholder="What would you like to order?"></textarea>
+                      </div>
+                      <div class="d-flex order-btn">
+                       <button class="modal-form-button green-btn" id="launch-btn">Order</button>
+                      </div>
+                  </form>
                 </div>
               </div>
             <div class="modal-background" id="success-modal">
               <div class="modal-form-container">
                   <button class="close-btn close">&times;</button>
                  <div class="modal-heading green">Thank you!</div>
-                 <div class="section-desc">We recieved your information.<br> Our mangers will call or write to you.</div>
+                 <div class="section-desc">We recieved your information.<br> Our managers will call or write to you.</div>
                   <div class="green section-desc">Have a nice day!</div>
               </div>
             </div> 
@@ -326,8 +329,8 @@
       <section class="subscribe d-flex">
         <div class="subscribe-heading">Subscribe to the Newsletter</div>
         <div class="subscribe-desc">Enter your email below to get our daily offers and news</div>
-        <form class="d-flex form">
-          <input type="text" placeholder="Enter your email.">
+        <form class="d-flex form" id="subscribe-form" data-netlify="true" action="#">
+          <input type="email" placeholder="Enter your email." required>
           <button type="submit" class="get-started-btn">Get Started</button>
         </form>
       </section>
