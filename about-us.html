@@ -3,24 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="/healthyfood/assets/healthy-food-8dd4bf01.png">
+    <link rel="icon" type="image/x-icon" href="/healthyfood/assets/healthy-food-8dd4bf01.png">
     <title>Healthy food</title>
-    <script type="module" crossorigin src="/healthyfood/assets/about-cd2b7c09.js"></script>
-    <link rel="modulepreload" crossorigin href="/healthyfood/assets/responsive-4ffbfc55.js">
-    <link rel="stylesheet" href="/healthyfood/assets/responsive-015d8012.css">
+    <script type="module" crossorigin src="/healthyfood/assets/about-cf2a1275.js"></script>
+    <link rel="modulepreload" crossorigin href="/healthyfood/assets/responsive-e0914dbc.js">
+    <link rel="stylesheet" href="/healthyfood/assets/responsive-6be53a17.css">
   </head>
   <body>
     <header>
         <nav class="navbar navbar-expand-lg top-line" data-bs-theme="white">
           <div class="container-fluid">
-              <div class="logo"><a href="/healthyfood/">UI.desk</a></div>
+              <div class="logo"><a href="/healthyfood/index.html">UI.desk</a></div>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse menu" id="navbarNavDropdown">
                   <ul class="navbar-nav menu-list">
                       <li class="nav-item">
-                        <a href="/healthyfood/">Home</a>
+                        <a href="/healthyfood/index.html">Home</a>
                       </li>
                       <li class="nav-item">
                         <a class="active-menu" href="/healthyfood/about-us.html">About</a>
@@ -39,37 +39,39 @@
             </div>
             
             <div class="modal-background" id="form-modal">
-                <div class="modal-form-container">
-                    <button class="close-btn close">&times;</button>
-                    <form action="#" class="modal-form" data-netlify="true" id="form">
+              <div class="modal-form-container">
+                  <button class="close-btn close">&times;</button>
+                  <form action="#" class="modal-form" data-netlify="true" id="form" name="order-form">
                       <h4 class="modal-heading">We will contact with you</h4>
                       <div>
                         <label class="d-flex">
-                          <span class="input-label section-desc">Name: </span>
-                          <input type="text" placeholder="Type your name" required>
+                          <span class="input-label section-desc" >Name:</span>
+                          <input type="text" placeholder="Type your name" name="Name" required>
                         </label>
                       </div>
                       <div>
                         <label class="d-flex">
-                          <span class="input-label section-desc">Phone: </span>
-                          <input type="tel" pattern="[0-9]{3} [0-9]{3} [0-9]{4}" placeholder="012 345 6789" required>
+                          <span class="input-label section-desc" >Phone:</span>
+                          <input type="tel" name="Tel" placeholder="012 345 67 89" required>
                         </label>
                       </div>
                       <div>
                         <label class="d-flex">
-                          <span class="input-label section-desc">Email: </span>
-                          <input type="email" placeholder="Type your email" required>
+                          <span class="input-label section-desc">Email:</span>
+                          <input type="email" placeholder="Type your email" name="Email" required>
                         </label>
                       </div>
                       <div>
-                        <textarea name="" id="" cols="47" rows="3" placeholder="What would you like to order?"></textarea>
+                        <label>
+                          <textarea name="Order" cols="47" rows="3" placeholder="What would you like to order?"></textarea>
+                        </label>
                       </div>
                       <div class="d-flex order-btn">
                        <button class="modal-form-button green-btn" id="launch-btn">Order</button>
                       </div>
                   </form>
-                </div>
               </div>
+            </div>
             <div class="modal-background" id="success-modal">
               <div class="modal-form-container">
                   <button class="close-btn close">&times;</button>
@@ -193,7 +195,7 @@
     <footer>
       <div class="footer-content d-flex">
         <div class="logo-part">
-          <div class="logo"><a href="/healthyfood/">UI.Desk</a></div>
+          <div class="logo"><a href="/healthyfood/index.html">UI.Desk</a></div>
           <div class="desc">On formed merits hunted unable merely by mr whence or. </div>
         </div>
         <div class="home">
@@ -223,7 +225,7 @@
         <div class="contact">
           <div class="name-of-list">Contact</div>
           <ul class="link-list d-flex">
-            <li><a href="/healthyfood/" class="link-item">UI.desk</a></li>
+            <li><a href="/healthyfood/index.html" class="link-item">UI.desk</a></li>
             <li><a href="tel:(456)954-8487" class="link-item">(456)954-8487</a></li>
             <li><a href="/healthyfood/contact.html#map" class="link-item">Lahore, Pakistan</a></li>
           </ul>
